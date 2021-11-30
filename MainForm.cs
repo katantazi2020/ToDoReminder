@@ -71,6 +71,9 @@ namespace ToDoReminder
             string desTips = "Write your schedule here!";
             toolTip1.SetToolTip(txttodo, desTips);
 
+            string addTips = "Click to add  this  to the list of tasks";
+            toolTip1.SetToolTip (btnadd, addTips);
+
             openDataFileToolStripMenuItem.Enabled = true;
             saveDataFileToolStripMenuItem.Enabled=true;
 
